@@ -3,7 +3,7 @@ name: Paolo Natividad
 bio: A problem solver with a taste for competition
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Everything you need to know about The Paolo Natividad
 
 # if it's an external image, update below for true
 # better with square images
@@ -81,7 +81,9 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-# blog: true
+blog: true
+blog-external: true
+blog-url: https://medium.com/@8.p.natividad
 
 # do you want to show the "read time" of the posts?
 read-time: true
