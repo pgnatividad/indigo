@@ -14,7 +14,7 @@ picture: assets/Paolo_Picture.png
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://drive.google.com/file/d/1fVpThsqbBP28axwshzxhZAv4OKKoNuQj/view?usp=sharing
 
 url: https://pgnatividad.github.io
 # your url: http://USERNAME.github.io
@@ -51,7 +51,7 @@ github: pgnatividad
 medium: 8.p.natividad
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+#email: myemail@gmail.com
 
 authors:
     johndoe:
@@ -81,7 +81,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true

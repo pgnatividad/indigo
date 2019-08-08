@@ -10,8 +10,9 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Reddit Classification Project</a></li>
-	<li><a href="https://github.com/">Commute Analysis</a></li>
+	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/sport_subreddit_classification_project">Reddit Classification Project</a></li>
+	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/Commute_analysis_pt1">Commute Analysis Part 1</a></li>
+	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/Commute_analysis_pt2">Commute Analysis Part 2</a></li>
 	<!--<li><a href="https://github.com/">Dolor Lorem</a></li>-->
 </ul>
 
