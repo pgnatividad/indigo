@@ -35,9 +35,11 @@ layout: page
 	<li>Pandas</li>
 	<li>Sklearn</li>
 	<li>Seaborn</li>
+	<li>Numpy</li>
 	<li>Matplotlib</li>
 	<li>Selenium</li>
 	<li>Beautiful Soup</li>
 	<li>Requests</li>
+
 
 </ul>
