@@ -17,12 +17,16 @@ title: Projects
 <h3><a href="https://github.com/pgnatividad/Portfolio/tree/master/sport_subreddit_classification_project">Subreddit Classification Project</a></h3>
 <p>
   In this Project I created a <b>logistic regression</b> model that determined if a post is from the Chicago Bulls Subreddit or the OKC Thunder Subreddit. Click the link for more details and Code!
-
+</p>
+<p>
   I decided I wanted to <b>scrape data from reddit</b> from the last 3 years, so I considered posts from the time frame 3-2 years ago, 2-1 years ago, and 1 year ago to now. I grabbed 10,000 posts per time frame per subreddit. From those 10,000 I used a filter to get posts with atleast 1 comment, atleast 4 comments, and atleast 10 comments. I used comments as a proxy to measure quality, as in if a post had more comments it would be more representative of the subreddit since it promoted discussion. I did not filter by score since I wanted to get posts representative of the sub, good or bad.
-
+</p>
+<p>
   With these sets of data, I plugged them into multiple models grid searching what parameters per model will work the best. I tried <b>Logistic Regression, Binomial Naive Bayes, Multinomial Naive Bayes, and Random Forest</b>The model I chose was a Logistic Regression with the 4 comment data set.
-
-  With a Logistic Regression model I was able to determine which words would be best indicators for either subreddit. 
+</p>
+<p>
+  With a Logistic Regression model I was able to determine which words would be best indicators for either subreddit.
+</p>
   <table>
     <tr>
       <th>Metrics</th>
