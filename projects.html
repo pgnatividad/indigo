@@ -16,24 +16,52 @@ title: Projects
 <img src="/assets/2hr_header_img.png">
 <h3><a href="https://github.com/pgnatividad/Portfolio/tree/master/2hr_Project">2hr Project</a></h3>
 <p>
-  In this project I was given 3 sets of data related to traffic tickets: A dataframe with statistics of each ticket, a dataframe that shows what ward the ticket is from, and a dataframe that shows the price of the ticket and its status. I had to figure out what the <b>mean</b> ticket amount is for men and women. Determine if there is a difference between ticket prices between men and women. Analyze the ticket values between officers and determine if any tend to give larger tickets. Analyze the ticket values between wards and see if any give larger tickets. A model then had to be created to predict ticket classes. I also needed to create a <b>presentation</b> and a <b>report</b> for the project. This project had a <b>total time limit</b> of <b>2 hours</b>
+  In this project I was given 3 sets of data related to traffic tickets: A dataframe with statistics of each ticket, a dataframe that shows what ward the ticket is from, and a dataframe that shows the price of the ticket and its status. I used <b>hypothesis testing</b> to come to my conclusions about ticket values between men and women, the officers issuing the tickets, and the wards the tickets were issued. I also created a <b>gradient boosting</b> model with interaction terms. I made a presentation and wrote a short paper detailing the project. All of this had to be done within <b>2 hours</b>.  Click the link for more details and code!
 </p>
 
+<p>
+  I first had to perform <b>EDA</b> on the data, fixing the rows in the court data dataframe that had an extra column (I realized later that there in an argument in Pandas that can take care of this for me). After concatenating all the dataframes together, I was able to start my analysis. I calculated the means of men and women using groupby. Then I used a <b>Student's T Test</b> to determine if there was a statistical difference between the two sexes. The resulting <b>p value</b> was <b>5.7 E-13</b> which is well below a <b>significance level of 95%</b>. I performed <b>ANOVA</b> to see if there was a difference between officers and the value of the ticket they hand out. I came to the conclusion that there is not a statistical difference between the officers. I did the same to the wards and concluded there is not a statistical difference between the wards.
+</p>
 
+<p>
+  I tested a <b>Gradient Boosted</b> classification model and an <b>SVC</b> model. I engineered features such as interaction terms and new binary variables. I then put the gradient boosted model into a <b>One vs Rest classifier</b>.
+</p>
 
+<p>
+  Note: I worked on the the project a bit more after the time limit to see how i could further <b>improve</b> my scores. Hence my code does not match the final results in the powerpoint/paper. I was able to bring up the score by 4.4%. A huge improvement.
+</p>
+
+<table>
+  <tr>
+    <th>Metrics</th>
+    <th>Score</th>
+  </tr>
+  <tr>
+    <td>Baseline Accuracy</td>
+    <td>38.6%</td>
+  </tr>
+  <tr>
+    <td>Test Accuracy</td>
+    <td>46.5%</td>
+  </tr>
+  <tr>
+    <td>Best Accuracy <br>(post time limit)</td>
+    <td>50.9%</td>
+  </tr>
+</table>
 
 <hr>
 
 <img src="/assets/thunder_words.png" alt='testing'>
 <h3><a href="https://github.com/pgnatividad/Portfolio/tree/master/sport_subreddit_classification_project">Subreddit Classification Project</a></h3>
 <p>
-  In this Project I created a <b>logistic regression</b> model that determined if a post is from the Chicago Bulls Subreddit or the OKC Thunder Subreddit. Click the link for more details and Code!
+  In this project I created a <b>logistic regression</b> model that determined if a post is from the Chicago Bulls Subreddit or the OKC Thunder Subreddit. Click the link for more details and Code!
 </p>
 <p>
   I decided I wanted to <b>scrape data from reddit</b> from the last 3 years, so I considered posts from the time frame 3-2 years ago, 2-1 years ago, and 1 year ago to now. I grabbed 10,000 posts per time frame per subreddit. From those 10,000 I used a filter to get posts with atleast 1 comment, atleast 4 comments, and atleast 10 comments. I used comments as a proxy to measure quality, as in if a post had more comments it would be more representative of the subreddit since it promoted discussion. I did not filter by score since I wanted to get posts representative of the sub, good or bad.
 </p>
 <p>
-  With these sets of data, I plugged them into multiple models grid searching what parameters per model will work the best. I tried <b>Logistic Regression, Binomial Naive Bayes, Multinomial Naive Bayes, and Random Forest</b>The model I chose was a Logistic Regression with the 4 comment data set.
+  With these sets of data, I plugged them into multiple models grid searching what parameters per model will work the best. I tried <b>Logistic Regression, Binomial Naive Bayes, Multinomial Naive Bayes, and Random Forest</b>. The model I chose was a Logistic Regression with the 4 comment data set.
 </p>
 <p>
   With a <b>Logistic Regression</b> model I was able to determine which words would be best indicators for either subreddit.
@@ -64,7 +92,7 @@ title: Projects
       <td>0.978</td>
     </tr>
   </table>
-</p>
+
 
 
 
