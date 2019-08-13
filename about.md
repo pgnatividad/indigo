@@ -11,6 +11,7 @@ layout: page
 
 <ul>
 	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/sport_subreddit_classification_project">Reddit Classification Project</a></li>
+	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/2hr_Project">2 Hour Project</a></li>
 	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/Commute_analysis_pt1">Commute Analysis Part 1</a></li>
 	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/Commute_analysis_pt2">Commute Analysis Part 2</a></li>
 	<!--<li><a href="https://github.com/">Dolor Lorem</a></li>-->
@@ -28,6 +29,7 @@ layout: page
 	<li>Java</li>
 	<li>Matlab</li>
 	<li>Mathematica</li>
+	<li>Jupyter Notebook </li>
 </ul>
 
 <h2>Libraries</h2>
@@ -41,5 +43,12 @@ layout: page
 	<li>Beautiful Soup</li>
 	<li>Requests</li>
 
+<h2>Skills</h2>
+<ul class="skill-list">
+	<li>Hypothesis Testing</li>
+	<li>A/B Testing</li>
+	<li>Web Scraping</li>
+	<li>Modeling </li>
+	<li>Design of Experiment</li>
 
 </ul>
