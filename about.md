@@ -42,7 +42,7 @@ layout: page
 	<li>Selenium</li>
 	<li>Beautiful Soup</li>
 	<li>Requests</li>
-
+</ul>
 <h2>Skills</h2>
 <ul class="skill-list">
 	<li>Hypothesis Testing</li>
@@ -52,3 +52,5 @@ layout: page
 	<li>Design of Experiment</li>
 
 </ul>
+
+<h4>banana</h4>
