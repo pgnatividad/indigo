@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I am a problem solver. You give me the constraints and I'll do my best within those parameters. I'm a thinker. A planner. A person who relishes the strange and the esoteric. When I am on my game I am unstoppable. I am an artist with a blank canvass. I need direction or else I delive the unexpected. Like a can of spray paint, I work best under pressure. </p>
+<p>I am a problem solver. You give me the constraints and I'll do everything I can within those parameters. I'm a thinker. A planner. A person who relishes the strange and the esoteric. An artist with a blank canvass. I work best with direction. When I am on my game I am unstoppable.</p>
 
 
 <h2>Projects</h2>
@@ -53,5 +53,3 @@ layout: page
 	<li>Design of Experiment</li>
 
 </ul>
-
-<h4>banana</h4>
