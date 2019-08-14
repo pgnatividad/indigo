@@ -14,6 +14,7 @@ layout: page
 	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/2hr_Project">2 Hour Project</a></li>
 	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/Commute_analysis_pt1">Commute Analysis Part 1</a></li>
 	<li><a href="https://github.com/pgnatividad/Portfolio/tree/master/Commute_analysis_pt2">Commute Analysis Part 2</a></li>
+	<li><a href="Tyler The Creator Sentiment Analysis">Tyler The Creator Sentiment Analysis</a></li>
 	<!--<li><a href="https://github.com/">Dolor Lorem</a></li>-->
 </ul>
 
