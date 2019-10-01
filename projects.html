@@ -18,10 +18,24 @@ title: Projects
 <h3> <a href="https://github.com/pgnatividad/NBA_Recommender_Pre-2019_Season">Most Similar NBA Player Recommender</a>
 </h3>
 <p>
-  I created a recommender system to find the best available replacement if a player of interest is drafted in Fantasy Basketball. I created this recommender by <b>scraping</b> BasketballReference.com for <b>over 350</b> players. Using <b>Sklearn</b> libraries like <b>Pairwise Distances</b>, I was able to create the similarity tables for all of the available players. I then created an app where users can <b>Search</b>, <b>Remove</b>, and <b>Add</b> players back into the available player pool. I also added a nice easter egg in there. Hope you can find it!
-  <br>
-  <br>
-  Feel free to download it from Github and test it out!
+  I created a recommender system to find the best available replacement if a player of interest is drafted in Fantasy Basketball.
+</p>
+
+<p>
+  I first needed to gather the data. I <b>Scraped</b> from the website BasketballReference.com using <b>Beautiful Soup</b>. I first created a loop that goes through the active teams in the league and gets their url slugs. I then created another loop that goes through each of the teams current rosters and gets the slugs and years of experience for each player. I filtered out the players that are rookies and then created a loop that gets the box score of the player's last three seasons and their career stats
+<!--
+  I created this recommender by <b>scraping</b> BasketballReference.com for <b>over 350</b> players. Using <b>Sklearn</b> libraries like <b>Pairwise Distances</b>, I was able to create the similarity tables for all of the available players. I then created an app where users can <b>Search</b>, <b>Remove</b>, and <b>Add</b> players back into the available player pool. I also added a nice easter egg in there. Hope you can find it! -->
+</p>
+<p>
+  After gathering the data, I needed to create the recommender system. I used the Sklearn library <b>Pairwise Distances</b> to create a similarity matrix with all the stats between every player. I created two separate matricies, one of the last three season aggregate and the other of career stats. I combined the two to create the master similarity tables.
+</p>
+
+<p>
+  I then created an script to give the user an interactive interface. I wanted the user to be able to <b>Search</b> players, <b>Remove</b> players, and <b>Add</b> players back into the pool. I even included an easter egg in the script. Hope you can find it!
+</p>
+
+<p>
+    Feel free to download it from Github and test it out!
 </p>
 
 <hr>
